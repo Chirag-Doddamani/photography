@@ -1,0 +1,160 @@
+.icon-bar {
+    width: 60px;
+    /* Set a specific width */
+    background-color: #0e3845;
+    /* Dark-grey background */
+    position: fixed;
+}
+
+.icon-bar a {
+    display: block;
+    /* Make the links appear below each other instead of side-by-side */
+    text-align: center;
+    /* Center-align text */
+    padding: 16px;
+    /* Add some padding */
+    transition: all 0.3s ease;
+    /* Add transition for hover effects */
+    color: white;
+    /* White text color */
+    font-size: 20px;
+    /* Increased font-size */
+}
+
+.icon-bar a:hover {
+    background-color: #95a5a6;
+    /* Add a hover color */
+}
+
+.active {
+    background-color: #2980b9;
+    /* Add an active/current color */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #34495e;
+    color: #00c5f7;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#delete button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ecf0f1;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align: center;
+}
+
+button {
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 0px;
+    padding: 4px 10px;
+    background-color: #2c3e50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    }
+
+button:hover,
+button:focus {
+    background-color: #e74c3c;
+    color: #2c3e50;
+}
+
+button:focus {
+    outline: 1px solid #2c3e50;
+    outline-offset: -2px;
+}
+
+section#delete {
+    background: url(https://cdn.pixabay.com/photo/2012/04/01/12/49/x-23285_960_720.png) no-repeat center center/cover;
+}
+
+section#message form input{
+    height: 5vh;
+    width: 90vh;
+}
+
+section#message .form-message form input{
+    height: 20vh;
+    text-align: center;
+    font-size: xx-large;
+}
+
+section#message h1{
+    color: #e74c3c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+section#message button{
+    height: 10vh;
+    width: 30vh;
+    font-size: 5vh;
+    color: aqua;
+}
+
+section#message{
+    background-color: lightblue;
+}
+
+section#website .img-p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+section#website{
+    height: 420vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+section#website h1{
+    font-size: xx-large;
+    color: orange;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-underline-position:above;
+}
+
+
+section#home {
+    background: url(https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204_960_720.jpg) no-repeat center center/cover;
+}
+
+section#home h1{
+font-size: xx-large;
+color:red;
+}
+
+section#home blockquote {
+padding: 20px;
+color: seashell;
+}
